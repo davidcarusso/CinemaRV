@@ -4,7 +4,9 @@ import streamlit as st
 def configuraciones():
     st.set_page_config(
         page_title="CinemaRV",
-        page_icon= "static/image/cinemarv_logo.png" 
+        page_icon= "static/image/cinemarv_logo.png",
+        initial_sidebar_state="collapsed"  # "expanded" o "auto" también son opciones
+
 )
     
 # --- Crea el objeto pagina para luego agrupparlos --- 
