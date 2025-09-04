@@ -6,8 +6,21 @@ def configuraciones():
         page_title="CinemaRV",
         page_icon= "static/image/cinemarv_logo.png",
         initial_sidebar_state="collapsed"  # "expanded" o "auto" también son opciones
+        )
+    
+    hide_footer_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    ._link_gzau3_10 {visibility: hidden;}
+    ._profilePreview_gzau3_63 {visibility: hidden;}
+    .reportview-container .main footer {visibility: hidden;}
+    </style>
+    """
+    st.markdown(hide_footer_style, unsafe_allow_html=True)
 
-)
+
     
 # --- Crea el objeto pagina para luego agrupparlos --- 
 def paginas():
