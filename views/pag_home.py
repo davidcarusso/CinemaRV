@@ -270,7 +270,7 @@ with row1[2]:
         """
         <div style="border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center; 
                     box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-            <img src="https://via.placeholder.com/150" style="border-radius:50%; margin-bottom:10px;">
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGckbHJt1p9yw/profile-displayphoto-shrink_200_200/B4DZZa1GXoGgAc-/0/1745280592278?e=1759968000&v=beta&t=Xd2EmioWghR-bJtiWzuAlz60wHdkEOLDqDbUN0y8fJM" style="border-radius:50%; margin-bottom:10px;">
             <h4>Carusso, David Ismael</h4>
             <p style="color:gray;">dcarusso@uade.edu.ar</p>
         </div>
