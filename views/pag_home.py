@@ -67,6 +67,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
+
+# Ocultar el menú principal, el footer y el botón flotante A REVISAR
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;} /* Menú hamburguesa */
+    footer {visibility: hidden;}    /* Footer "Made with Streamlit" */
+    header {visibility: hidden;}    /* Encabezado superior */
+    .stActionButton {visibility: hidden;} /* Botón flotante de Streamlit */
+    </style>
+"""
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
+
 # --- HERO con título custom ---
 st.markdown(
     """
