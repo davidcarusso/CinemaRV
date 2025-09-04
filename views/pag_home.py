@@ -200,14 +200,17 @@ st.markdown(
 
 st.markdown("---")
 
-# --- CTA ---
+# --- CTA: Apoyar/Inversión ---
 st.markdown(
     """
     <div style='text-align: center; padding: 40px;'>
-        <h2>¿Listo para vivir el cine del futuro?</h2>
-        <a href="https://tu-link-de-demo" target="_blank">
-            <button style='background-color:#FF4B4B; color:white; padding:15px 30px; font-size:20px; border:none; border-radius:10px;'>
-                Probar CinemaRV
+        <h2>¿Querés ser parte del cine del futuro?</h2>
+        <p>Apoyanos y sé parte de la experiencia CinemaRV desde el inicio.</p>
+        <a href="#contacto" target="_self">
+            <button style='background: linear-gradient(90deg,#ff424d,#f96825); color:white; 
+                           padding:15px 30px; font-size:20px; border:none; border-radius:10px;
+                           box-shadow: 0 0 15px #ff424d; cursor:pointer;'>
+                Apoyar CinemaRV
             </button>
         </a>
     </div>
