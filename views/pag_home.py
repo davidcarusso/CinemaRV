@@ -220,7 +220,6 @@ st.markdown(
 
 
 
-
 # --- ACERCA DE NOSOTROS ---
 st.markdown("---")
 st.subheader("Acerca de nosotros")
