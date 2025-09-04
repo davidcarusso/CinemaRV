@@ -206,7 +206,7 @@ st.markdown(
     <div style='text-align: center; padding: 40px;'>
         <h2>¿Querés ser parte del cine del futuro?</h2>
         <p>Apoyanos y sé parte de la experiencia CinemaRV desde el inicio.</p>
-        <a href="#contacto" target="_self">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=PLmXxqSJJq-yXrCPGIT2gn8b34JjOrl4Xf&index=21" target="_self">
             <button style='background: linear-gradient(90deg,#ff424d,#f96825); color:white; 
                            padding:15px 30px; font-size:20px; border:none; border-radius:10px;
                            box-shadow: 0 0 15px #ff424d; cursor:pointer;'>
