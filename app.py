@@ -3,8 +3,8 @@ import streamlit as st
 # --- Configuracion de Pagina ---
 def configuraciones():
     st.set_page_config(
-        page_title="CinemaRV"
-        #, page_icon= "" 
+        page_title="CinemaRV",
+        page_icon= "static/image/cinemarv_logo.png" 
 )
     
 # --- Crea el objeto pagina para luego agrupparlos --- 
