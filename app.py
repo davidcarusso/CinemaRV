@@ -48,7 +48,7 @@ def paginas():
     }
 
     # --- Crea el objeto multipagina --- 
-    pg = st.navigation([pagina_1, pagina_2, pagina_3])
+    pg = st.navigation([pagina_1, pagina_3])
 
     return pg
 

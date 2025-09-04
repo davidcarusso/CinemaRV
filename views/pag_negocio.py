@@ -1,7 +1,89 @@
 import streamlit as st
 
 
-st.write("# CinemaRV")
+# --- Estilos globales ---
+st.markdown("""
+    <style>
+    /* Fondo general */
+    .stApp {
+        background: linear-gradient(135deg, #0a0f29, #1a1f3d);
+        color: #d6d9e0;
+    }
+
+    /* Títulos */
+    h1 {
+        font-size: 3.5em;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h1 .cinema {
+        color: #d6d9e0;
+        text-shadow: 0 0 8px #5a78ff;
+    }
+
+    h1 .rv {
+        background: linear-gradient(90deg, #5a78ff, #00ffff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 0 12px #00ffff, 0 0 24px #5a78ff;
+        animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+        from { text-shadow: 0 0 8px #00ffff, 0 0 16px #5a78ff; }
+        to   { text-shadow: 0 0 20px #00ffff, 0 0 40px #5a78ff; }
+    }
+
+    /* Texto normal */
+    p, li, span {
+        color: #d6d9e0 !important;
+    }
+
+    /* Botones */
+    .stButton>button {
+        background: linear-gradient(90deg, #5a78ff, #00ffff);
+        color: white;
+        border: none;
+        border-radius: 12px;
+        padding: 0.6em 1.2em;
+        font-weight: bold;
+        box-shadow: 0 0 15px #5a78ff;
+        transition: 0.3s;
+    }
+    .stButton>button:hover {
+        box-shadow: 0 0 25px #00ffff;
+        transform: scale(1.05);
+    }
+
+    /* Inputs (cajas de texto, selectores, etc.) */
+    .stTextInput>div>div>input,
+    .stSelectbox>div>div>div>div {
+        background-color: #1a1f3d;
+        color: #d6d9e0;
+        border-radius: 8px;
+        border: 1px solid #5a78ff;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+# --- HERO con título custom ---
+st.markdown(
+    """
+    <div style='text-align: center; padding: 40px 0;'>
+        <h1>
+            <span class="cinema">CINEMA</span><span class="rv">RV</span>
+        </h1>
+        <p style='font-size: 1.4em;'>
+            No es solo ver la peli, es <b>vivirla con tus amigos</b> desde cualquier lugar del mundo
+        </p>
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.write("## Plan de Negocio")
 
