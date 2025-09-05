@@ -68,6 +68,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+
+st.markdown(
+    '<meta name="google-site-verification" content="iD53tEKNy4HKZzPMbhgjzjZtWopHedXzuDN9frfXOWI" />',
+    unsafe_allow_html=True
+)
+
+
 # Ocultar el menú principal, el footer y el botón flotante A REVISAR
 hide_streamlit_style = """
     <style>
