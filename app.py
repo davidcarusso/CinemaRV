@@ -19,6 +19,12 @@ def configuraciones():
     </style>
     """
     st.markdown(hide_footer_style, unsafe_allow_html=True)
+    
+    
+    st.markdown(
+    '<meta name="google-site-verification" content="iD53tEKNy4HKZzPMbhgjzjZtWopHedXzuDN9frfXOWI" />',
+    unsafe_allow_html=True
+    )
 
 
     
